@@ -17,6 +17,11 @@ main p {
     height:auto;
 }
 
+#formCoti{
+    margin:10%;
+
+}
+
 nav ul {
     display: flex;
     gap: 10px;
@@ -53,12 +58,11 @@ padding: 2%;
 justify-content: space-between;
 }
 
-div img {
-    width: 50%;
-    height: auto;
+
+
+main h1 {
+    margin-bottom:10%
 }
-
-
 
 footer img {
 
@@ -75,3 +79,45 @@ body div {
     text-align: right;
 }
 
+.footerbar {
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #efefef;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+div.footerbar .footerbar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.footerbar .footerbar-item .footerbar_text {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-right: 15px;
+    font-family: Raleway-Regular,sans-serif;
+    font-size: 13px;
+    color: #828282;
+}
+div.footerbar .footerbar-item .footerbar_icon {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
