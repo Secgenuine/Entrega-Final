@@ -1,0 +1,69 @@
+body main h1 {
+  text-align: center;
+  margin-bottom: 10%;
+}
+body main p {
+  text-align: center;
+}
+body section {
+  background-color: lightgray;
+  text-align: center;
+}
+body section div {
+  display: flex;
+  padding: 2%;
+  justify-content: space-between;
+}
+body section div p {
+  text-align: center;
+}
+body .footerbar {
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #efefef;
+  padding: 30px 0;
+  margin-top: 30px;
+}
+body .footerbar .container1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body .footerbar .container1 .row1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+body .footerbar .container1 .row1 .footerbarItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .footerbar .container1 .row1 .footerbarItem .footerbarText {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  margin-right: 15px;
+  font-family: Raleway-Regular, sans-serif;
+  font-size: 13px;
+  color: #828282;
+}
+body .footerbar .container1 .row1 .footerbarItem .footerbarIcon {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+body footer {
+  display: flex;
+  background-color: gray;
+  justify-content: space-between;
+  padding: 10px;
+}
+body footer img {
+  width: 1cm;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
