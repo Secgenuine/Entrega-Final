@@ -37,6 +37,7 @@ body .footerbar .container1 .row1 {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  justify-content: space-evenly;
 }
 body .footerbar .container1 .row1 .footerbarItem {
   display: flex;
@@ -54,16 +55,22 @@ body .footerbar .container1 .row1 .footerbarItem .footerbarText {
 }
 body .footerbar .container1 .row1 .footerbarItem .footerbarIcon {
   display: flex;
-  align-items: center;
-  height: 40px;
+  justify-content: center;
+  height: auto;
 }
 body footer {
+  margin-top: 50px;
   display: flex;
   background-color: gray;
   justify-content: space-between;
   padding: 10px;
 }
-body footer img {
+body footer div {
+  display: flex;
+  flex-direction: column;
+}
+body footer div img {
   width: 1cm;
   height: auto;
+  padding: 5px;
 }/*# sourceMappingURL=main.css.map */
