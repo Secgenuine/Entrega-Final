@@ -1,6 +1,6 @@
 body main h1 {
   text-align: center;
-  margin-bottom: 10%;
+  margin: 5%;
 }
 body main p {
   text-align: center;
@@ -8,6 +8,10 @@ body main p {
 body section {
   background-color: lightgray;
   text-align: center;
+  margin-bottom: 2%;
+}
+body section .carouselTrabajosRealizados {
+  padding: 50%;
 }
 body section div {
   display: flex;
@@ -16,6 +20,11 @@ body section div {
 }
 body section div p {
   text-align: center;
+}
+body section2 {
+  display: flex;
+  flex: block;
+  justify-content: center;
 }
 body .footerbar {
   position: relative;
