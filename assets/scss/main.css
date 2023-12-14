@@ -21,11 +21,7 @@ body section div {
 body section div p {
   text-align: center;
 }
-body section2 {
-  display: flex;
-  flex: block;
-  justify-content: center;
-}
+
 body .footerbar {
   position: relative;
   float: left;
