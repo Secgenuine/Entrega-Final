@@ -5,24 +5,68 @@ body main h1 {
 body main p {
   text-align: center;
 }
-body section {
+body main section {
   background-color: lightgray;
   text-align: center;
   margin-bottom: 2%;
 }
-body section .carouselTrabajosRealizados {
+body main section .carouselTrabajosRealizados {
   padding: 50%;
 }
-body section div {
+body main section div {
   display: flex;
+  flex-wrap: wrap;
   padding: 2%;
   justify-content: space-between;
 }
-body section div p {
+body main section div p {
   text-align: center;
 }
+body main #contenedorImg {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body main #contenedorImg .row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-evenly;
+}
+body main #contenedorImg .row2 .contenedorItem {
+  margin: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 7px;
+  box-shadow: 2px 2px gray;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body main #contenedorImg .row2 .contenedorItem .contenedorText {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  margin: 20px;
+  font-family: Raleway-Regular, sans-serif;
+  font-size: 13px;
+  color: #828282;
+}
+body main #contenedorImg .row2 .contenedorItem .footerbarIcon {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+body #ytvideo {
+  display: flex;
+  justify-content: center;
+}
 
-body .footerbar {
+.footerbar {
   position: relative;
   float: left;
   width: 100%;
@@ -30,26 +74,26 @@ body .footerbar {
   padding: 30px 0;
   margin-top: 30px;
 }
-body .footerbar .container1 {
+.footerbar .container1 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
-body .footerbar .container1 .row1 {
+.footerbar .container1 .row1 {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
   justify-content: space-evenly;
 }
-body .footerbar .container1 .row1 .footerbarItem {
+.footerbar .container1 .row1 .footerbarItem {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-body .footerbar .container1 .row1 .footerbarItem .footerbarText {
+.footerbar .container1 .row1 .footerbarItem .footerbarText {
   display: flex;
   float: left;
   flex-direction: column;
@@ -58,23 +102,24 @@ body .footerbar .container1 .row1 .footerbarItem .footerbarText {
   font-size: 13px;
   color: #828282;
 }
-body .footerbar .container1 .row1 .footerbarItem .footerbarIcon {
+.footerbar .container1 .row1 .footerbarItem .footerbarIcon {
   display: flex;
   justify-content: center;
   height: auto;
 }
-body footer {
+
+footer {
   margin-top: 50px;
   display: flex;
   background-color: gray;
   justify-content: space-between;
   padding: 10px;
 }
-body footer div {
+footer div {
   display: flex;
   flex-direction: column;
 }
-body footer div img {
+footer div img {
   width: 1cm;
   height: auto;
   padding: 5px;
