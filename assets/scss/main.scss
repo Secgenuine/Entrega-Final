@@ -71,6 +71,7 @@ body{
                             margin: 10px;
                             img{
                                 max-width: 100px;
+                                @media  (max-width: 250px) {max-width: 50px;}
                             }
                         }
                     }

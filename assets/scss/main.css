@@ -66,6 +66,11 @@ body main #contenedorImg .row2 .contenedorItem .contenedorIcon {
 body main #contenedorImg .row2 .contenedorItem .contenedorIcon img {
   max-width: 100px;
 }
+@media (max-width: 250px) {
+  body main #contenedorImg .row2 .contenedorItem .contenedorIcon img {
+    max-width: 50px;
+  }
+}
 body #ytVideo {
   display: flex;
   justify-content: center;
