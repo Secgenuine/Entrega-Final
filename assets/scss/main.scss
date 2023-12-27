@@ -1,6 +1,18 @@
 
 body{
+    #formCoti{
+        margin:10%;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #828282;
+        padding: 5%;
+        @media  (max-width: 350px) {font-size: x-small;}
+        #cotiEspecial{
+            font-family: "Sofia", sans-serif;
+        }
+    }
     main{
+        
         h1{
             text-align: center;
             margin:5%
@@ -8,12 +20,106 @@ body{
         p{
             text-align: center;
         }
-    
+        #imagenContactos{
+            width:100%;
+            img{
+                width:100%;
+            }
+        }
+        #seccionContactos{
+                display:flex;
+                @media  (max-width: 600px) {
+                    flex-wrap: wrap;
+                    border-right-width: 1px;
+                    border-right-color: black;
+                }
+                
+        #numerosContactos{
+            width:100%;
+            justify-content: center;
+            display: grid;
+            @media  (max-width: 350px) {font-size: small;}
+            @media  (max-width: 300px) {font-size: x-small;}
+            p{
+                width:100%;
+            
+            }
+            div{
+                width:100%;
+            }
+            .tituloFormCont {
+                margin-top: 2%;
+            }
+        }
+        #formularioContactos{
+            justify-content: center;
+            border-width: 1px;
+            width:100%;
+            @media  (max-width: 350px) {font-size: small;}
+            @media  (max-width: 300px) {font-size: x-small;}
+            @media  (min-width: 601px) {
+                border-left-width: 1px;
+                border-left-color: black;
+            }
+            @media  (max-width: 600px) {
+                border-top-width: 1px;
+                border-top-color: black;
+            }
+            .tituloFormCont {
+                margin-top: 2%;
+            }
+            #rowForm{
+                display:flex;
+                width:100%;
+                .rowItem{
+                    width:100%;
+                    padding-left: 30%;
+                    padding-right: 30%;
+                    @media  (max-width: 450px) {
+                        padding-left: 10%;
+                        padding-right: 10%;
+                    }
+                    justify-content: first baseline;
+                    #inputNombre{
+                        width:300px;
+                        height:50px;
+                        border-radius: 10px;
+                    }
+                    #inputApellido{
+                        width:300px;
+                        height:50px;
+                        border-radius: 10px;
+                    }
+                    #inputTelefono{
+                        width:300px;
+                        height:50px;
+                        border-radius: 10px;
+                    }
+                    #inputEmail{
+                        width:300px;
+                        height:50px;
+                        border-radius: 10px;
+                    }
+                    #inputComentario{
+                        width:300px;
+                        height:200px;
+                        border-radius: 10px;
+                    }
+
+                }
+
+            
+            }
+            div{
+            #buttonEnviar{
+                border-radius: 10px;
+            }}
+        }
+        }
         section{
         background-color: lightgray;
         text-align: center;
-        margin-bottom: 2%;
-            .carouselTrabajosRealizados{
+        .carouselTrabajosRealizados{
             padding: 50%;
             }
             div{
@@ -28,6 +134,7 @@ body{
         }
         .titulo2{
             text-align: center;
+            margin-top: 2%;
         }
 
         #contenedorImg{

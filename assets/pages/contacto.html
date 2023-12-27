@@ -17,12 +17,12 @@
 <body class="bodyclass mt-0 pt-0">
     <header>
         <nav class="navbar navbar-expand-lg sticky-top bg-white ">
-            <div class="container-fluid">
-            <a class="navbar-brand me-5 ms-5 .object-fit-sm-0.5" href="./index.html">Montajes Industriales</a>
+            <div class="container-fluid justify-content-around">
+              <a class="navbar-brand me-5 ms-5 .object-fit-sm-0.5" href="./index.html">Montajes Industriales</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto column-gap-5">
                     <li class="nav-item">
                         <a class="nav-link" href="../../index.html">Home</a>
@@ -45,37 +45,68 @@
         </nav>
     </header>
     <main>
-        <section>
-        <p>Nuestros telefonos son:</p>
-        <p>Cel: 54-9-11-1111-1111</p>
-        <p>Tel: 54-9-11-2222-2222 ext 11</p>
-        <p>Email: montajesindustriales@montaInd.com</p>
+        <div id="imagenContactos">
+            <img src="https://www.rfrepresentaciones.com/wp-content/uploads/2019/11/COTACTENOS.png" alt="dejenosSusDatos">
+            
+        </div>
+        <section id="seccionContactos">
+            <div id="numerosContactos">
+                <p class="tituloFormCont">Contáctenos directamente por los siguientes medios:</p>
+                <div>
+                    <p>Cel: 54-9-11-1111-1111</p>
+                    <p>Tel: 54-9-11-2222-2222 ext 11</p>
+                    <p>Email: montajesindustriales@montaInd.com</p>
+                </div>
+        
+            </div>
+        </section>
+            <div id="imagenContactos">
+                <img src="/assets/imagenes/hsbc-canales-atencion-cliente-hero.jpg" alt="contactenos">
+            </div>
+            <section id="seccionContactos">
+            <div id="formularioContactos">
+                <p class="tituloFormCont">Déjenos su mensaje y lo contactaremos:</p>
+                    <div id="rowForm">
+                        <div class="rowItem">
+                            <p>Nombre: </p><input  id="inputNombre" type="nombre">
+                        </div>
+                        <div class="rowItem">   
+                            <p>Apellido: </p><input  id="inputApellido" type="apellido">
+                        </div>
+                        <div class="rowItem">
+                            <p>Teléfono: </p><input id="inputTelefono" type="telefono">
+                        </div>
+                        <div class="rowItem">
+                            <p>Email: </p><input id="inputEmail" type="mail">
+                        </div>
+                        <div class="rowItem">
+                            <p>Comentarios: </p><input id="inputComentario" type="comentarios">
+                        </div>
 
-
-        <p>Déjenos su mensaje y lo contactaremos:</p>
-        <p>Nombre: </p><input type="nombre">
-        <p>Apellido: </p><input type="apellido">
-        <p>Teléfono: </p><input type="telefono">
-        <p>Email: </p><input type="mail">
-        <p>Comentarios: </p><input type="comentarios">
-        <button>Enviar</button>
+                    </div>
+                    <div >
+                        <button id="buttonEnviar">Enviar</button>
+                    </div>
+            </div>
         </section>
 
     </main>
     <footer>
+
+
         <div>
-            <img src="../imagenes/instagram-6338392_1280.webp" alt="insta">
-            <img src="../imagenes/nuevo-logotipo-twitter-ahora-llamada_104.webp" alt="X">
-            <img src="../imagenes/whatsapp_logo_icon_229310.png" alt="Waps">
+              <img src="/assets/imagenes/instagram-6338392_1280.webp" alt="insta">
+              <img src="/assets/imagenes/nuevo-logotipo-twitter-ahora-llamada_104.webp" alt="X">
+              <img src="/assets/imagenes/whatsapp_logo_icon_229310.png" alt="Waps">
         </div>
         <div>
-            <p>montajesindustriales@mi.com.ar</p>
-            <p>+54-9-11-0000-9999</p>
-            <p>Av. Parque 1999, Springfield, Buenos Aires</p>
+              <p class="textoFooter">montajesindustriales@mi.com.ar</p>
+              <p class="textoFooter">+54-9-11-0000-9999</p>
+              <p class="textoFooter">Av. Parque 1999, Springfield, Buenos Aires</p>
         </div>
         <div>
-        <p>Derechos reservados®</p>
+            <p class="textoFooter">Derechos reservados®</p>
         </div>
-    </footer>
+      </footer>
 </body>
 </html>

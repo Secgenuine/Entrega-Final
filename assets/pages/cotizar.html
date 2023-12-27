@@ -10,6 +10,7 @@
     <title>Montajes Industriales - Cotizar</title>
     <!------CCS tags------------>
     <link rel="stylesheet" href="../scss/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <!-----external CCS&JS from Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -17,13 +18,13 @@
 <body class="bodyclass mt-0 pt-0">
   <header> 
     <nav class="navbar navbar-expand-lg sticky-top bg-white ">
-          <div class="container-fluid">
-            <a class="navbar-brand me-5 ms-5 .object-fit-sm-0.5" href="./index.html">Montajes Industriales</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mx-auto column-gap-5">
+      <div class="container-fluid justify-content-around">
+        <a class="navbar-brand me-5 ms-5 .object-fit-sm-0.5" href="./index.html">Montajes Industriales</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto column-gap-5">
                   <li class="nav-item">
                       <a class="nav-link" href="../../index.html">Home</a>
                   </li>
@@ -46,7 +47,7 @@
     </header>
     
     <main id="formCoti">
-        <h1>Quiero cotizar!</h1>
+        <h1 id="cotiEspecial">Quiero cotizar!</h1>
       <form class="row g-3 needs-validation" novalidate>
           <div class="col-md-4">
             <label for="validationCustom01" class="form-label">Nombre</label>
@@ -89,9 +90,9 @@
           </div>
 
 
-          <div class="input-group">
-              <span class="input-group-text">Descripción del proyecto</span>
-              <textarea class="form-control" aria-label="With textarea"></textarea>
+          <div class="form-group">
+            <label for="comment">Ingrese detalles de su proyecto:</label>
+            <textarea class="form-control" rows="5" id="comment" placeholder="Ingrese detalles del proyecto" ></textarea>
           </div>
           <div>
               <div class="form-check">
@@ -111,19 +112,21 @@
     </main>
 
     <footer>
+
+
       <div>
-        <img src="../imagenes/instagram-6338392_1280.webp" alt="insta">
-        <img src="../imagenes/nuevo-logotipo-twitter-ahora-llamada_104.webp" alt="X">
-        <img src="../imagenes/whatsapp_logo_icon_229310.png" alt="Waps">
+            <img src="/assets/imagenes/instagram-6338392_1280.webp" alt="insta">
+            <img src="/assets/imagenes/nuevo-logotipo-twitter-ahora-llamada_104.webp" alt="X">
+            <img src="/assets/imagenes/whatsapp_logo_icon_229310.png" alt="Waps">
       </div>
       <div>
-          <p>montajesindustriales@mi.com.ar</p>
-          <p>+54-9-11-0000-9999</p>
-          <p>Av. Parque 1999, Springfield, Buenos Aires</p>
+            <p class="textoFooter">montajesindustriales@mi.com.ar</p>
+            <p class="textoFooter">+54-9-11-0000-9999</p>
+            <p class="textoFooter">Av. Parque 1999, Springfield, Buenos Aires</p>
       </div>
       <div>
-        <p>Derechos reservados®</p>
+          <p class="textoFooter">Derechos reservados®</p>
       </div>
-  </footer>
+    </footer>
 </body>
 </html>
