@@ -22,6 +22,9 @@ body main section div {
 body main section div p {
   text-align: center;
 }
+body main .titulo2 {
+  text-align: center;
+}
 body main #contenedorImg {
   width: 100%;
   padding-right: 15px;
@@ -38,10 +41,9 @@ body main #contenedorImg .row2 {
 }
 body main #contenedorImg .row2 .contenedorItem {
   margin: 10px;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-radius: 7px;
-  box-shadow: 2px 2px gray;
   border-color: black;
   display: flex;
   flex-direction: column;
@@ -56,17 +58,30 @@ body main #contenedorImg .row2 .contenedorItem .contenedorText {
   font-size: 13px;
   color: #828282;
 }
-body main #contenedorImg .row2 .contenedorItem .footerbarIcon {
+body main #contenedorImg .row2 .contenedorItem .contenedorIcon {
   display: flex;
   justify-content: center;
-  height: auto;
+  margin: 10px;
 }
-body #ytvideo {
+body main #contenedorImg .row2 .contenedorItem .contenedorIcon img {
+  max-width: 100px;
+}
+body #ytVideo {
   display: flex;
   justify-content: center;
+  margin: 5%;
+}
+body #videoBox {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2/1;
+}
+body #videoBox iframe {
+  height: 100%;
+  width: 100%;
 }
 
-.footerbar {
+.footerBar {
   position: relative;
   float: left;
   width: 100%;
@@ -74,26 +89,26 @@ body #ytvideo {
   padding: 30px 0;
   margin-top: 30px;
 }
-.footerbar .container1 {
+.footerBar .container1 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
-.footerbar .container1 .row1 {
+.footerBar .container1 .row1 {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
   justify-content: space-evenly;
 }
-.footerbar .container1 .row1 .footerbarItem {
+.footerBar .container1 .row1 .footerbarItem {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.footerbar .container1 .row1 .footerbarItem .footerbarText {
+.footerBar .container1 .row1 .footerbarItem .footerbarText {
   display: flex;
   float: left;
   flex-direction: column;
@@ -102,7 +117,7 @@ body #ytvideo {
   font-size: 13px;
   color: #828282;
 }
-.footerbar .container1 .row1 .footerbarItem .footerbarIcon {
+.footerBar .container1 .row1 .footerbarItem .footerbarIcon {
   display: flex;
   justify-content: center;
   height: auto;
@@ -111,13 +126,26 @@ body #ytvideo {
 footer {
   margin-top: 50px;
   display: flex;
+  flex-wrap: wrap;
   background-color: gray;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px;
+  width: 100%;
 }
 footer div {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+}
+footer div .textoFooter {
+  width: 100%;
+  text-align: center;
+  font-size: small;
+}
+@media (max-width: 200px) {
+  footer div .textoFooter {
+    font-size: x-small;
+  }
 }
 footer div img {
   width: 1cm;

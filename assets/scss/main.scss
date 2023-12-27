@@ -26,6 +26,9 @@ body{
                 }
             }
         }
+        .titulo2{
+            text-align: center;
+        }
 
         #contenedorImg{
                 width: 100%;
@@ -41,10 +44,10 @@ body{
                     justify-content: space-evenly;
                     .contenedorItem{
                         margin:10px;
-                        border-width: 2px;
+                        border-width: 1px;
                         border-style: solid;
                         border-radius: 7px;
-                        box-shadow: 2px 2px gray;
+
                         border-color: black;
                         display: flex;
                         flex-direction: column;
@@ -61,22 +64,37 @@ body{
                             color: #828282;
                             
                         }
-                        .footerbarIcon
+                        .contenedorIcon
                         {
                             display: flex;
                             justify-content: center;
-                            height: auto;
+                            margin: 10px;
+                            img{
+                                max-width: 100px;
+                            }
                         }
                     }
                 }
             }
         }
-        #ytvideo {
+        #ytVideo {
+            
             display:flex;
             justify-content: center;
+            margin: 5%;
+            }
+            #videoBox{
+                width: 100%;
+                height: auto;
+                aspect-ratio: 2/1;
+                iframe{
+                    height: 100%;
+                    width: 100%;
+
+                }
             }
         }
-    .footerbar {
+    .footerBar {
         position: relative;
         float: left;
         width: 100%;
@@ -122,21 +140,28 @@ body{
     
 
     footer{
-        
         margin-top:50px;
         display: flex;
+        flex-wrap:wrap;
         background-color: gray;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 10px;
+        width: 100%;
         div{
             display: flex;
             flex-direction: column;
-
+            justify-content: space-evenly;
+            .textoFooter{
+                width: 100%;
+                text-align: center;
+                font-size: small;
+                @media  (max-width: 200px) {font-size: x-small;}
+            }
             img{
                 width:1cm;
                 height:auto;
                 padding: 5px;
                 }
             };
+        
         }
-
