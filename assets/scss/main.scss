@@ -155,27 +155,51 @@ body{
             background-color: white;
             border-radius: 25px;
             margin-left: 30%;
+            @media  (max-width: 600px) {font-size: small;}
+            @media  (max-width: 400px) {font-size: x-small;}
+            @media  (max-width: 250px) {font-size: xx-small;}
         }
         #segundoParrafo{
             background-color: white;
             border-radius: 25px;
             margin-right: 30%;
             text-align: left;
+            @media  (max-width: 600px) {font-size: small;}
+            @media  (max-width: 400px) {font-size: x-small;}
+            @media  (max-width: 250px) {font-size: xx-small;}
         }
         #primeraImagen{
             border-radius: 25px;
             margin-left: 10%;
+            @media  (max-width: 970px) {width:90%;}
         }
         #tercerParrafo{
             background-color: white;
             border-radius: 25px;
             margin-left: 30%;
+            @media  (max-width: 600px) {font-size: small;}
+            @media  (max-width: 400px) {font-size: x-small;}
+            @media  (max-width: 250px) {font-size: xx-small;}
         }
         #cuartoParrafo{
             background-color: white;
             border-radius: 25px;
             margin-right: 30%;
             text-align: left;
+            @media  (max-width: 600px) {font-size: small;}
+            @media  (max-width: 400px) {font-size: x-small;}
+            @media  (max-width: 250px) {font-size: xx-small;}
+        }
+        #preQuintoParrafo{
+            justify-content: center;
+            @media  (max-width: 600px) {font-size: small;}
+            @media  (max-width: 400px) {font-size: x-small;}
+            @media  (max-width: 250px) {font-size: xx-small;}
+        }
+        .titulosServicios{
+            @media  (max-width: 600px) {font-size: small;}
+            @media  (max-width: 400px) {font-size: x-small;}
+            @media  (max-width: 250px) {font-size: xx-small;}
         }
         #quintoParrafo{
             background-color: white;
@@ -183,8 +207,19 @@ body{
             margin-right: 15%;
             margin-left:15%;
            text-align: center;
+           justify-content: center;
 
-           ul{list-style: none;}
+           ul{
+            justify-content: center;
+            list-style: none;
+            padding:0;
+            @media  (max-width: 600px) {font-size: small;}
+            @media  (max-width: 400px) {font-size: x-small;}
+            @media  (max-width: 250px) {font-size: xx-small;}
+                }
+           @media  (max-width: 600px) {font-size: small;}
+           @media  (max-width: 400px) {font-size: x-small;}
+           @media  (max-width: 250px) {font-size: xx-small;}
            
         }
         #contenedorImg{
