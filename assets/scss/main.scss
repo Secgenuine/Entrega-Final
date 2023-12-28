@@ -5,10 +5,20 @@ body{
         border-width: 1px;
         border-style: solid;
         border-color: #828282;
-        padding: 5%;
+        background-color: lightgrey;
+
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
         @media  (max-width: 350px) {font-size: x-small;}
         #cotiEspecial{
             font-family: "Sofia", sans-serif;
+        }
+        input{
+            @media  (max-width: 400px) {font-size: x-small;}
+        }
+        textarea{
+            @media  (max-width: 400px) {font-size: x-small;}
         }
     }
     main{
@@ -129,6 +139,10 @@ body{
                 justify-content: space-between;
                 p{
                     text-align: center;
+                }
+                #parrafoQuienes{
+                    @media  (min-width: 990px) {font-size: large;}
+                    @media  (max-width: 400px) {font-size: small;}
                 }
             }
         }

@@ -3,7 +3,10 @@ body #formCoti {
   border-width: 1px;
   border-style: solid;
   border-color: #828282;
-  padding: 5%;
+  background-color: lightgrey;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 @media (max-width: 350px) {
   body #formCoti {
@@ -12,6 +15,16 @@ body #formCoti {
 }
 body #formCoti #cotiEspecial {
   font-family: "Sofia", sans-serif;
+}
+@media (max-width: 400px) {
+  body #formCoti input {
+    font-size: x-small;
+  }
+}
+@media (max-width: 400px) {
+  body #formCoti textarea {
+    font-size: x-small;
+  }
 }
 body main h1 {
   text-align: center;
@@ -149,6 +162,16 @@ body main section div {
 }
 body main section div p {
   text-align: center;
+}
+@media (min-width: 990px) {
+  body main section div #parrafoQuienes {
+    font-size: large;
+  }
+}
+@media (max-width: 400px) {
+  body main section div #parrafoQuienes {
+    font-size: small;
+  }
 }
 body main .titulo2 {
   text-align: center;
